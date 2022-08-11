@@ -1,55 +1,55 @@
-# goit-markup-hw-06
+п»ї# goit-markup-hw-06
 
 <div class="">
-    <label class="" for="user-email-id">Введіть пошту</label>
+    <label class="" for="user-email-id">Р’РІРµРґС–С‚СЊ РїРѕС€С‚Сѓ</label>
     <input class="" type="email" name="user-email" id="user-email-id" placeholder="" autofocus />
 </div>
   
 <div class="">
-    <label class="" for="user-tel-id">Введіть телефон</label>
+    <label class="" for="user-tel-id">Р’РІРµРґС–С‚СЊ С‚РµР»РµС„РѕРЅ</label>
     <input
       type="tel"
       class=""
       name="user-tel"
       id="user-tel-id"
       
-      placeholder="Введіть телефон"
-      value="+380"- значення
+      placeholder="Р’РІРµРґС–С‚СЊ С‚РµР»РµС„РѕРЅ"
+      value="+380"- Р·РЅР°С‡РµРЅРЅСЏ
 
-      title="+380 (96) 111-11-11" --(підказка)---
-      required ---(поле обовязкове до заповення)---
-      autofocus -(автоматично обираеться при завантаженні)--
+      title="+380 (96) 111-11-11" --(РїС–РґРєР°Р·РєР°)---
+      required ---(РїРѕР»Рµ РѕР±РѕРІСЏР·РєРѕРІРµ РґРѕ Р·Р°РїРѕРІРµРЅРЅСЏ)---
+      autofocus -(Р°РІС‚РѕРјР°С‚РёС‡РЅРѕ РѕР±РёСЂР°РµС‚СЊСЃСЏ РїСЂРё Р·Р°РІР°РЅС‚Р°Р¶РµРЅРЅС–)--
 
     />
   </div>
 
-<button type="submit">Відправити</button>
+<button type="submit">Р’С–РґРїСЂР°РІРёС‚Рё</button>
 
 <div class="">
-    <label class="" for="user-text-id">Ваш коментар</label>
+    <label class="" for="user-text-id">Р’Р°С€ РєРѕРјРµРЅС‚Р°СЂ</label>
     <textarea
       class=""
       name="user-text"
       id="user-text-id"
-      placeholder="Напишіть ваш коментар"
+      placeholder="РќР°РїРёС€С–С‚СЊ РІР°С€ РєРѕРјРµРЅС‚Р°СЂ"
     ></textarea>
 (css ----- resize: both | horizontal | vertical | none)
   </div>
 
 
   <fieldset>
-    <legend>рамка з написом для групування контенту формы</legend>
+    <legend>СЂР°РјРєР° Р· РЅР°РїРёСЃРѕРј РґР»СЏ РіСЂСѓРїСѓРІР°РЅРЅСЏ РєРѕРЅС‚РµРЅС‚Сѓ С„РѕСЂРјС‹</legend>
   </fieldset>
 
 RADIO
-<input type="radio" name="size" id="big-id" value="big" checked---(обране поле)--- />
+<input type="radio" name="size" id="big-id" value="big" checked---(РѕР±СЂР°РЅРµ РїРѕР»Рµ)--- />
 <label for="big-id">big</label>
 <input type="radio" name="size" id="small-id" value="small" />
 <label for="small-id">small</label>
 
 
 CHECKBOX
-<input type="checkbox" name="add" id="tomatos-id" value="tomatos" --checked (обране поле)--- />
+<input type="checkbox" name="add" id="tomatos-id" value="tomatos" --checked (РѕР±СЂР°РЅРµ РїРѕР»Рµ)--- />
 <label for="tomatos-id">tomatos</label>
 <input type="checkbox" name="add" id="cheese-id" value="cheese" />
 <label for="cheese-id">cheese</label>
@@ -58,7 +58,7 @@ CHECKBOX
 
 
 <select name="city" id="city-id" class="">
-    <option value="London" selected(обране за замовчуванням) >London</option>
+    <option value="London" selected(РѕР±СЂР°РЅРµ Р·Р° Р·Р°РјРѕРІС‡СѓРІР°РЅРЅСЏРј) >London</option>
     <option value="Paris" >Paris</option>
     <option value="Kyiv">Kyiv</option>
 </select>
@@ -79,7 +79,7 @@ CHECKBOX
 </select>
 
 
-валідацідація плейсхолдера якщо плейсхолдера немає долаємо пробіл в placeholder = " "
+РІР°Р»С–РґР°С†С–РґР°С†С–СЏ РїР»РµР№СЃС…РѕР»РґРµСЂР° СЏРєС‰Рѕ РїР»РµР№СЃС…РѕР»РґРµСЂР° РЅРµРјР°С” РґРѕР»Р°С”РјРѕ РїСЂРѕР±С–Р» РІ placeholder = " "
 
 .modal-input:not(:focus):not(:placeholder-shown):valid {
   background-color: rgba(27, 131, 19, 0.361);
@@ -89,7 +89,7 @@ CHECKBOX
 }
 
 
-підсвічуємо обовязкові для заповнення поля з атребутом required 
+РїС–РґСЃРІС–С‡СѓС”РјРѕ РѕР±РѕРІСЏР·РєРѕРІС– РґР»СЏ Р·Р°РїРѕРІРЅРµРЅРЅСЏ РїРѕР»СЏ Р· Р°С‚СЂРµР±СѓС‚РѕРј required 
 
 .modal-input:required { 
   border-color: violet;
@@ -100,7 +100,7 @@ input:checked + label {
 }
 
 
-(до placeholder - можна використовувати стилі  для тексту плейсхолждера)
+(РґРѕ placeholder - РјРѕР¶РЅР° РІРёРєРѕСЂРёСЃС‚РѕРІСѓРІР°С‚Рё СЃС‚РёР»С–  РґР»СЏ С‚РµРєСЃС‚Сѓ РїР»РµР№СЃС…РѕР»Р¶РґРµСЂР°)
 .modal-input::placeholder {
   font-size: 12px;
   font-weight: 400;
@@ -111,4 +111,4 @@ input:checked + label {
 color: tomato;
 }
 
-appearance: none - скриває чекбокс
+appearance: none - СЃРєСЂРёРІР°С” С‡РµРєР±РѕРєСЃ
